@@ -10,8 +10,8 @@ except FileNotFoundError:
 	# make a config json with DISCORD_BOT_TOKEN and HYPIXEL_API_KEY
 	with open('./config.json', 'w') as f:
 		json.dump({
-			"DISCORD_BOT_TOKEN": "MTEyMDE5NDAwMDkyMjYyODEyNg.G231C2.2g1Z2FSu9Alu_hCDIR0b8TjrI6CVOn__KlhXRA",
-			"HYPIXEL_API_KEY": "73a2db72-d2ba-4a8a-b8e9-24d77cc5b767"
+			"DISCORD_BOT_TOKEN": "",
+			"HYPIXEL_API_KEY": ""
 		}, f, indent=4)
 
 	# print that the config file has been created and must be filled
