@@ -1,0 +1,7 @@
+version: '3'
+services:
+  discord:
+    build: ./discord
+    volumes:
+      - ./discord:/usr/src/app
+    restart: unless-stopped
